@@ -1,0 +1,3 @@
+"The user has uploaded a text file containing financial data. 
+Please provide a brief summary or key insights from this data. If it's not financial data or is unclear, 
+state that you cannot analyze it as financial data."
