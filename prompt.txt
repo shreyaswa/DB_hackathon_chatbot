@@ -1,3 +1,177 @@
-"The user has uploaded a text file containing financial data. 
-Please provide a brief summary or key insights from this data. If it's not financial data or is unclear, 
-state that you cannot analyze it as financial data."
+You are an expert business analyst and financial consultant. Your task is to analyze the provided financial and operational data for "Company 1" and deliver critical insights, perform necessary calculations, and offer strategic recommendations.
+
+**DATA START**
+# Company 1 - Annual Financial Data (Dummy)
+
+## January
+Revenue: 50000
+Cost_of_Goods_Sold: 20000
+Salaries: 10000
+Rent: 3000
+Marketing: 2000
+Utilities: 800
+Other_Operating_Expenses: 1500
+Number_of_Customers: 200
+Average_Transaction_Value: 250
+
+## February
+Revenue: 55000
+Cost_of_Goods_Sold: 22000
+Salaries: 10000
+Rent: 3000
+Marketing: 2500
+Utilities: 850
+Other_Operating_Expenses: 1600
+Number_of_Customers: 220
+Average_Transaction_Value: 250
+
+## March
+Revenue: 60000
+Cost_of_Goods_Sold: 24000
+Salaries: 10500
+Rent: 3000
+Marketing: 3000
+Utilities: 900
+Other_Operating_Expenses: 1700
+Number_of_Customers: 240
+Average_Transaction_Value: 250
+
+## April
+Revenue: 58000
+Cost_of_Goods_Sold: 23200
+Salaries: 10500
+Rent: 3000
+Marketing: 2800
+Utilities: 880
+Other_Operating_Expenses: 1650
+Number_of_Customers: 230
+Average_Transaction_Value: 252
+
+## May
+Revenue: 62000
+Cost_of_Goods_Sold: 24800
+Salaries: 11000
+Rent: 3000
+Marketing: 3200
+Utilities: 920
+Other_Operating_Expenses: 1800
+Number_of_Customers: 250
+Average_Transaction_Value: 248
+
+## June
+Revenue: 65000
+Cost_of_Goods_Sold: 26000
+Salaries: 11000
+Rent: 3000
+Marketing: 3500
+Utilities: 950
+Other_Operating_Expenses: 1900
+Number_of_Customers: 260
+Average_Transaction_Value: 250
+
+## July
+Revenue: 63000
+Cost_of_Goods_Sold: 25200
+Salaries: 11000
+Rent: 3000
+Marketing: 3300
+Utilities: 930
+Other_Operating_Expenses: 1850
+Number_of_Customers: 255
+Average_Transaction_Value: 247
+
+## August
+Revenue: 68000
+Cost_of_Goods_Sold: 27200
+Salaries: 11500
+Rent: 3000
+Marketing: 3800
+Utilities: 980
+Other_Operating_Expenses: 2000
+Number_of_Customers: 270
+Average_Transaction_Value: 252
+
+## September
+Revenue: 70000
+Cost_of_Goods_Sold: 28000
+Salaries: 11500
+Rent: 3000
+Marketing: 4000
+Utilities: 1000
+Other_Operating_Expenses: 2100
+Number_of_Customers: 280
+Average_Transaction_Value: 250
+
+## October
+Revenue: 72000
+Cost_of_Goods_Sold: 28800
+Salaries: 12000
+Rent: 3000
+Marketing: 4200
+Utilities: 1020
+Other_Operating_Expenses: 2200
+Number_of_Customers: 290
+Average_Transaction_Value: 248
+
+## November
+Revenue: 75000
+Cost_of_Goods_Sold: 30000
+Salaries: 12000
+Rent: 3000
+Marketing: 4500
+Utilities: 1050
+Other_Operating_Expenses: 2300
+Number_of_Customers: 300
+Average_Transaction_Value: 250
+
+## December
+Revenue: 80000
+Cost_of_Goods_Sold: 32000
+Salaries: 12500
+Rent: 3000
+Marketing: 5000
+Utilities: 1100
+Other_Operating_Expenses: 2500
+Number_of_Customers: 320
+Average_Transaction_Value: 250
+**DATA END**
+
+Based on the "Company 1" data provided above, perform the following analysis and provide a comprehensive report:
+
+**1. Key Financial Performance Indicators (KPIs) - Monthly & Annual:**
+   - Calculate Gross Profit, Operating Expenses (total), Operating Income, and Net Income for each month.
+   - Calculate the annual totals for Revenue, COGS, Gross Profit, Operating Expenses, Operating Income, and Net Income.
+
+**2. Profitability Ratios:**
+   - Calculate the monthly and annual:
+     - Gross Profit Margin (Gross Profit / Revenue)
+     - Operating Profit Margin (Operating Income / Revenue)
+     - Net Profit Margin (Net Income / Revenue)
+
+**3. Revenue and Customer Analysis:**
+   - Calculate the month-over-month (MoM) revenue growth rate.
+   - Calculate the total number of customers acquired over the year.
+   - Calculate the average monthly revenue.
+   - Calculate the average monthly number of customers.
+
+**4. Cost Structure Analysis:**
+   - Identify the largest operating expense categories.
+   - Analyze the trend of marketing spend relative to revenue and customer acquisition.
+   - Calculate the Customer Acquisition Cost (CAC) for each month where new customers are added (Marketing / (Current Month Customers - Previous Month Customers)). If previous month customers are not available or zero, use current month customers.
+
+**5. Trends and Observations:**
+   - Describe the overall revenue trend throughout the year.
+   - Comment on the consistency and trends of profitability margins.
+   - Identify any significant fluctuations or anomalies in expenses or revenue.
+   - Are there any seasonal patterns?
+
+**6. Strategic Insights and Recommendations:**
+   - **Strengths and Weaknesses:** Summarize the key financial strengths and weaknesses of Company 1 based on your analysis.
+   - **Investment Decisions:** Based on the profitability and growth trends, provide recommendations on whether Company 1 is a good candidate for investment. What factors should an investor consider?
+   - **Expansion Opportunities:** Suggest potential areas for expansion (e.g., increased marketing, product diversification, geographical expansion) and justify your suggestions with data points.
+   - **Cost Optimization:** Identify specific areas where costs could potentially be optimized without negatively impacting revenue or customer experience.
+   - **Revenue Growth Strategies:** Propose actionable strategies to further increase revenue and customer base.
+   - **Risk Assessment:** Point out any potential financial or operational risks evident from the data.
+
+**Output Format:**
+Present your analysis in a clear, structured manner using headings, bullet points, and tables where appropriate. Ensure all calculations are explicitly shown or clearly referenced. Conclude with a concise summary of your key recommendations.
